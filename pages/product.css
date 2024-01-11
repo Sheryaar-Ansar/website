@@ -38,3 +38,90 @@ header a:hover{
     background: #359381;
 
 }
+
+footer{
+    top: 100%;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    background: aliceblue;
+    
+}
+.element p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #359381;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input input{
+    width: 100%;
+    border: 2px solid #359381;
+    background: aliceblue;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe input{
+    width: 170px;
+    background: aliceblue;
+    border: 1px solid #359381;
+    color: #359381;
+    border-radius: 8px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.icon a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #359381, aquamarine);
+    border-radius: 50px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+body{
+    min-height: 100vh;
+    
+}
