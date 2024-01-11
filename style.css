@@ -132,3 +132,21 @@ body{
     display: inline;
 
 } 
+.banner img{
+    width: 100%;
+
+
+}
+.text-1{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 100px;
+    color: black;
+}
+.images-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 300;
+    margin-bottom: 50px;
+}
