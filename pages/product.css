@@ -38,16 +38,3 @@ header a:hover{
     background: #359381;
 
 }
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
-}
-
-.image-1{
-    /* display: inline; */
-    margin-top: 150px;
-}
