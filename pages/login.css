@@ -194,14 +194,15 @@ h2 {
   transition: .5s;
 }
 
-/* .input-box input:focus,
+ /* .input-box input:focus,
   .input-box input:valid {
-    border-bottom: aquamarine;  
-  } */
+    border-bottom:#359381;  
+  }  */
 
 .input-box label {
   position: absolute;
   left: 0;
+  top: 15px;
   transform: translate(2%);
   font-size: 16px;
   color: #359381;
@@ -209,12 +210,12 @@ h2 {
   transition: .5s;
 }
 
-/*  
+ 
    .input-box input:focus~.input-box label,
   .input-box input:valid~.input-box label {
     top: -5px;
     color: aquamarine;  
-  } */
+  } 
 
 i {
   position: absolute;
