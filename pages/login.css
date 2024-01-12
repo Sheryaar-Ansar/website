@@ -219,6 +219,7 @@ body{
      font-size: 18px; 
      color: rgb(5, 138, 25);
     transition: .5s;
+    left: 250px;;
   } 
  
   .input-box input:focus~i,
