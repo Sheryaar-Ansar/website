@@ -144,9 +144,26 @@ body{
     line-height: 100px;
     color: black;
 }
-.images-4{
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 300;
-    margin-bottom: 50px;
+.image-4{
+
+flex-basis: 25%;
+padding: 10px;
+min-width: 250px;
+margin: bottom 50px;;
+
+}
+.image-4 img{ 
+    width: 300px;
+
+}
+
+.image-4 h4,p{
+    margin-left: 55px;
+
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
