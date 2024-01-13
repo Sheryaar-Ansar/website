@@ -134,7 +134,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(340, 400, 245);
+  background-color: #B9BECA;
   backdrop-filter: blur;
   /* margin-bottom: 100px; */
 
@@ -155,6 +155,7 @@ body {
   border: 2px solid #359381;
   border-radius: 30px;
   box-shadow: 0 0 25px #359381;
+  background: aliceblue;
 }
 
  h2{

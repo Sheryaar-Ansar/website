@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -17,13 +17,13 @@ header{
     height: 50px;
 }
 
-header h2{
+header h2 {
     font-size: 2.5em;
     pointer-events: none;
     font-weight: 800;
 }
 
-header a{
+header a {
     color: #359381;
     font-size: 20px;
     text-decoration: none;
@@ -33,22 +33,24 @@ header a{
     margin: 15px;
     padding: 5px;
 }
+
 header a:hover,
-header a.active{
+header a.active {
     color: aliceblue;
     background: #359381;
 
 }
 
-footer{
+footer {
     top: 100%;
     position: sticky;
     width: 100%;
     bottom: 0;
     background: aliceblue;
-    
+
 }
-.element p{
+
+.element p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +63,7 @@ footer{
 
 }
 
-.input{
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +71,7 @@ footer{
 
 }
 
-.input input{
+.input input {
     width: 100%;
     border: 2px solid #359381;
     background: aliceblue;
@@ -82,14 +84,14 @@ footer{
     outline: none;
 }
 
-.subscribe{
+.subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.subscribe input{
+.subscribe input {
     width: 170px;
     background: aliceblue;
     border: 1px solid #359381;
@@ -101,7 +103,7 @@ footer{
 
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,48 +126,54 @@ footer{
     margin: 10px;
 }
 
-body{
+body {
     min-height: 100vh;
     background: #B9BECA;
-    
+
 }
 
-.image-1{
+.image-1 {
     display: inline;
 
-} 
-.banner img{
+}
+
+.banner img {
     width: 100%;
 
 
 }
-.text-1{
+
+.text-1 {
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
     line-height: 100px;
     color: black;
 }
-.image-4{
 
-flex-basis: 25%;
-padding: 10px;
-min-width: 250px;
-margin: bottom 50px;;
+.image-4 {
 
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 250px;
+    margin: bottom 50px;;
+    /* margin-left: 20px; */
 }
-.image-4 img{ 
+
+.image-4 img {
     width: 300px;
+    border-radius: 20px;
 
 }
 
-.image-4 h4,p{
+.image-4 h4,
+p {
     margin-left: 55px;
 
 
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
