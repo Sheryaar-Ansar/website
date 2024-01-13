@@ -162,6 +162,7 @@ body {
   justify-content: center;
   text-align: center;
   text-shadow: 0 0 8px #2beeca;
+  pointer-events: none;
 }
 
 .form-box .input-box{
@@ -180,6 +181,11 @@ body {
   background: transparent;
   font-size: 16px;
   font-weight: 600;
+}
+
+.input-box label{
+  font-weight: 600;
+  color: #359381;
 }
 
 
@@ -203,7 +209,11 @@ body {
   box-shadow: 0 0 45px #359381;
   margin-left: 21px;
   font-size: larger;
+  font-weight: 700;
+  color: #39b49e;
+  cursor: pointer;
 }
+
 .reg{
   display: flex;
   justify-content: space-between;
@@ -215,6 +225,8 @@ body {
 }
 .reg p {
   font-size: 18px;
+  font-weight: 600;
+  color: #359381;
  
 }
 
@@ -226,8 +238,9 @@ body {
  font-weight: 600;
  text-decoration: none;
  font-size: 20;
+
 }
 
 .reg a:hover{
-  text-decoration: underline;
+  text-decoration: underline 2px solid;
 }
