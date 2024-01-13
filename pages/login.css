@@ -132,15 +132,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(340, 400, 245);
+  background-color: white;
   backdrop-filter: blur;
   /* margin-bottom: 100px; */
+
 
 
 }
 
 
-
+ 
 .box-cont{
   width: 350px;
   height: 400px;
@@ -165,22 +166,30 @@ body {
 
 }
 
+.form-box h2{
+  /* margin-top: 15px; */
+}
+
 .form-box .input-box{
-  margin: 30px;
+  /* margin: 30px; */
+  /* margin-top: 40px; */
+  margin: 30px 20px 65px 35px;
 
 }
 
 .input-box input {
- 
-  height: 20px;
-  width: 20px;
-  /* margin-top: 10px; */
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  height: 30px;
+  width: 260px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   outline: none;
-  padding-left: 260px;
   border-color: #359381;
+  color: black;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+
 
 
 }
@@ -189,7 +198,11 @@ body {
 
 .input-box i{
   margin-left: 230px;
-  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: -35px;
   
 }
 
