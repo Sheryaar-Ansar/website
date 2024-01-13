@@ -125,5 +125,91 @@ footer{
 
 body{
     min-height: 100vh;
+    /* background: #359381; */
     
 }
+.large-container{
+    
+    width: 540px;
+    height: 540px;
+    /* background: red; */
+    margin-left: 550px;
+    margin-top: 450px;
+    border: 2px solid #359381, aquamarine;
+    box-shadow: 0 0 35px #359381;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.large-container .box-container{
+    
+}
+
+.box-container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.large-container h2{
+    /* margin-left: 100px; */
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    padding-bottom: 12px;
+    margin-top: -30px;
+
+}
+
+.name input{
+    height: 40px;
+    width: 250px;
+    /* display: flex; */
+    font-size: 15px;
+    font-weight: 600;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
+.em{
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.em input{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+
+}
+
+
+
+.btn input{
+    background: linear-gradient( #359381, aquamarine);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: #359381;
+    box-shadow: 0 0 15px #359381;
+
+}
+
+.comment textarea{
+    width: 500px;
+    font-size: 16px;
+}
+
