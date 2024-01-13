@@ -151,30 +151,21 @@ body {
   align-items: center;
   border: 2px solid #359381;
   border-radius: 30px;
-  box-shadow: 0 0 25px #359381;
+  box-shadow: 0 0 25px #2beeca;
   background: aliceblue;
 }
 
  h2{
   margin: 25px;
   margin-right: -55px;
-  color:#359381;
+  color:#39b49e;
   justify-content: center;
   text-align: center;
-  text-shadow: 0 0 6px;
-  
-
-}
-
-.form-box h2{
-  /* margin-top: 15px; */
+  text-shadow: 0 0 8px #2beeca;
 }
 
 .form-box .input-box{
-  /* margin: 30px; */
-  /* margin-top: 40px; */
-  margin: 30px 20px 65px 35px;
-
+  margin: 30px 20px 65px 40px;
 }
 
 .input-box input {
@@ -189,11 +180,7 @@ body {
   background: transparent;
   font-size: 16px;
   font-weight: 600;
-
-
-
 }
-
 
 
 .input-box i{
@@ -206,21 +193,37 @@ body {
   
 }
 
+
 .btn input{
   background: linear-gradient( #359381, aquamarine);
   width: 300px;
   height: 30px;
   border-radius: 15px;
   border: #359381;
-  box-shadow: 0 0 15px #359381;
-  cursor: pointer;
-  margin-left: 16px;
+  box-shadow: 0 0 45px #359381;
+  margin-left: 21px;
   font-size: larger;
 }
 
 .reg p {
   text-align: center;
-  margin: 20px;
-  margin-left: 90px; 
+  margin: 50px 0 ;
+  margin-left: 0px; 
+  font-size: 18px;
  
+}
+
+.reg a {
+ padding-left: 170px; 
+ padding-bottom: 250px; 
+ margin: ;
+ color: #359381;
+ text-shadow: 0 0 8px #20f1cb;
+ font-weight: 600;
+ text-decoration: none;
+ font-size: 20;
+}
+
+.reg a:hover{
+  text-decoration: underline;
 }
