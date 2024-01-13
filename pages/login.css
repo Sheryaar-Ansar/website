@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   background: aliceblue;
   height: 50px;
+  /* margin-bottom: ; */
 }
 
 header h2 {
@@ -47,6 +48,7 @@ footer {
   width: 100%;
   bottom: 0;
   background: aliceblue;
+  margin-top: 100px;
 
 }
 
@@ -81,6 +83,7 @@ footer {
   border-top: none;
   border-left: none;
   border-right: none;
+  outline: none;
 }
 
 .subscribe {
@@ -125,13 +128,19 @@ footer {
   margin: 10px;
 }
 
-body{
-  min-height: 100vh;
+body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  background-color: rgb(340, 400, 245);
+  backdrop-filter: blur;
+  /* margin-bottom: 100px; */
+
 }
+
+
 
 .box-cont{
   width: 350px;
