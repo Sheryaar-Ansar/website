@@ -44,7 +44,10 @@ header a.active{
     position: absolute;
     display: flex;
     top: 12%;
-    margin-left: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
 }
 .menu a{
     font-size: 19px;

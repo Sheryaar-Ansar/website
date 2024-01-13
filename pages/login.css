@@ -186,6 +186,7 @@ h2 {
   height: 100%;
   background: transparent;
   border: none;
+  outline: none;
   border-bottom: 2px solid #359381;
   padding-right: 23px;
   font-size: 18px;
@@ -193,11 +194,6 @@ h2 {
   font-weight: 500;
   transition: .5s;
 }
-
-/* .input-box input:focus,
-  .input-box input:valid {
-    border-bottom: aquamarine;  
-  } */
 
 .input-box label {
   position: absolute;
@@ -209,12 +205,6 @@ h2 {
   transition: .5s;
 }
 
-/*  
-   .input-box input:focus~.input-box label,
-  .input-box input:valid~.input-box label {
-    top: -5px;
-    color: aquamarine;  
-  } */
 
 i {
   position: absolute;
