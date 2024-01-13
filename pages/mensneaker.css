@@ -80,6 +80,7 @@ footer{
     border-top: none;
     border-left: none;
     border-right: none;
+    outline: none;
 }
 
 .subscribe{
@@ -127,15 +128,11 @@ footer{
 body{
     min-height: 100vh;
     margin-top: 200px;
-    /* background: darkcyan; */
+    background: white;
 
  
 }
 
-.product-collection{
-    /* background: grey; */
-
-}
 
 .product-collection .item-subcontainer{
     display: flex;

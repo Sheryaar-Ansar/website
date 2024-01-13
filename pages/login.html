@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="../logo.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hush Puppies - Signin</title>
     <link rel="stylesheet" href="login.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -20,31 +22,29 @@
             <a href="./login.html" class="active">Login</a>
         </div>
     </header>
-    <div class="container-1">
+    <div class="box-cont">
         <div class="form-box">
             <h2>LOGIN</h2>
             <form>
                 <div class="input-box">
-                    <label>username</label>
-                    <i class='bx bx-user bx-tada' style='color:#359381' ></i>
-                    <input type="text" reqiuired>
-                    <!-- <i class='bx bx-user bx-tada' style='color:#23da5d' ></i> -->
+                    <i class='bx bxs-user bx-tada' style='color:#10af70'></i>
+                    <label>Username<input type="email" required></label>
+
                 </div>
-                <div class="input-box">
-                    <label>password</label>
-                    <input type="password" required>
-                    <i class='bx bx-lock-alt bx-tada' style='color:#359381' ></i>
+                <div class="input-box">            
+                    <i class='bx bxs-lock-alt bx-tada' style='color:#10af70'></i>
+                    <label>Password<input type="password" required></label>
+
                 </div>
-                <button type="submit" class="btn">login</button>
-                <div class="reg-link">
-                    <p>don't have account? <a href="#" class="rdt-link">Sign Up</a></p>
+                <div class="btn">
+                    <input type="submit" value="Log in">
+                </div>
+                <div class="reg">
+                    <p>Don't have account?<a href="../index.html">Sign Up</a></p> 
                 </div>
             </form>
         </div>
     </div>
-
-
-
 
 
 
@@ -92,10 +92,18 @@
             </div>
             <div class="icon-container">
                 <div class="icon">
-                    <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href=""><ion-icon name="logo-youtube"></ion-icon></a>
+                    <a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
                 </div>
             </div>
     </footer>

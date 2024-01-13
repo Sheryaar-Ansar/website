@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -17,13 +17,13 @@ header{
     height: 50px;
 }
 
-header h2{
+header h2 {
     font-size: 2.5em;
     pointer-events: none;
     font-weight: 800;
 }
 
-header a{
+header a {
     color: #359381;
     font-size: 20px;
     text-decoration: none;
@@ -33,14 +33,15 @@ header a{
     margin: 15px;
     padding: 5px;
 }
+
 header a:hover,
-header a.active{
+header a.active {
     color: aliceblue;
     background: #359381;
 
 }
 
-.menu{
+.menu {
     position: absolute;
     display: flex;
     top: 12%;
@@ -49,7 +50,8 @@ header a.active{
     justify-content: center;
 
 }
-.menu a{
+
+.menu a {
     font-size: 19px;
     color: #359381;
     margin: 10px;
@@ -57,19 +59,20 @@ header a.active{
 
 }
 
-.menu a:hover{
+.menu a:hover {
     text-decoration: underline 4px solid #359381;
 }
 
-footer{
+footer {
     top: 100%;
     position: sticky;
     width: 100%;
     bottom: 0;
     background: aliceblue;
-    
+
 }
-.element p{
+
+.element p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +85,7 @@ footer{
 
 }
 
-.input{
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +93,7 @@ footer{
 
 }
 
-.input input{
+.input input {
     width: 100%;
     border: 2px solid #359381;
     background: aliceblue;
@@ -100,16 +103,17 @@ footer{
     border-top: none;
     border-left: none;
     border-right: none;
+    outline: none;
 }
 
-.subscribe{
+.subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.subscribe input{
+.subscribe input {
     width: 170px;
     background: aliceblue;
     border: 1px solid #359381;
@@ -121,7 +125,7 @@ footer{
 
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +148,14 @@ footer{
     margin: 10px;
 }
 
-body{
+body {
     min-height: 100vh;
+    background: white;
     
+
 }
-.banner-template h2{
+
+.banner-template h2 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -157,7 +164,7 @@ body{
     margin-top: 170px;
 }
 
-.banner-template i{
+.banner-template i {
     width: 100%;
     border: 2px solid #359381;
     margin-top: 5px;
@@ -165,17 +172,17 @@ body{
 }
 
 
-.main-template{
+.main-template {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
-    
+
 }
 
-.banner img{
+.banner img {
     margin-top: 55px;
     border-radius: 20px;
     width: 98%;
@@ -183,7 +190,7 @@ body{
 }
 
 
-.submain-items{
+.submain-items {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -192,23 +199,24 @@ body{
     /* background: #E4E4E4; */
 }
 
-.row-items .image img{
+.row-items .image img {
     width: 400px;
     margin-left: 25px;
     padding: 35px;
     border-radius: 40px;
+    transition: 0.5s ease;
 }
 
-.row-items .image img:hover{
+.row-items .image img:hover {
     /* background: #359381; */
     backdrop-filter: blur(100px);
     opacity: 0.3;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
 
-.image-name p{
+.image-name p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,5 +226,5 @@ body{
     font-weight: 1000;
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
