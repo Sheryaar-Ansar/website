@@ -128,7 +128,7 @@ footer {
 
 body {
     min-height: 100vh;
-    background: #B9BECA;
+    background: #E9FAF9;
 
 }
 
@@ -136,10 +136,23 @@ body {
     display: inline;
 
 }
-
+.image-1 img{
+    transition: .5s ease; 
+       
+}
+.image-1 img:hover{
+    opacity: 0.6;
+}
 .banner img {
     width: 100%;
 
+
+}
+.images-2 img {
+    transition: 0.5s ease;
+}
+.images-2 img:hover {
+    opacity: 0.6;
 
 }
 
@@ -158,6 +171,16 @@ body {
     min-width: 250px;
     margin: bottom 50px;;
     /* margin-left: 20px; */
+    transition: .5s ease;
+}
+
+.image-4:hover{
+    margin-top: -15px;
+    margin-bottom: -15px;
+    /* background: red; */
+    opacity: 0.7;
+    color: #359381;
+
 }
 
 .image-4 img {
@@ -165,6 +188,7 @@ body {
     border-radius: 20px;
 
 }
+
 
 .image-4 h4,
 p {
