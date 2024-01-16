@@ -133,7 +133,10 @@ body {
 }
 
 .image-1 {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
 
 }
 .image-1 img{
@@ -149,6 +152,7 @@ body {
 
 }
 .images-2 img {
+
     transition: 0.5s ease;
 }
 .images-2 img:hover {
@@ -201,3 +205,4 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+
