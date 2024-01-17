@@ -1,4 +1,4 @@
-           <center> MID TERM ASSIGNMENT</center>
+            MID TERM ASSIGNMENT
 
 
 This Mentioned Website is made by 3 of the below members:
