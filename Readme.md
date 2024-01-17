@@ -35,7 +35,7 @@ Navigation:
 Implement a navigation bar using the <nav> tag and create hyperlinks with <a> tags to smoothly navigate between sections.
 Introduction Section:
 
-Showcase your personal information using <div> elements and headings (<h1>, <h2>) for hierarchy.
+Showcase your personal information using <div> elements and headings i.e <h1>, <h2> for hierarchy.
 Add an image with the <img> tag to personalize your introduction.
 Projects Section:
 
