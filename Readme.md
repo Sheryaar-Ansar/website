@@ -1,7 +1,7 @@
                                       MID TERM ASSIGNMENT
 
 
-This Mentioned Website is made by 3 of the below members:
+This Mentioned Website is made by 3 of the below members: <br>
 Group Name : <i>COdify Group</i>
 <ul>
 <li>1- Sheheryaar Khan (Team Lead)</li>
