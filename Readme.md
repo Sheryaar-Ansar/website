@@ -3,9 +3,11 @@
 
 This Mentioned Website is made by 3 of the below members:
 Group Name : <i>COdify Group</i>
-1- Sheheryaar Khan (Team Lead)
-2- Muhammad (Team Member)
-3- Afnan (Team Member)
+<ul>
+<li>1- Sheheryaar Khan (Team Lead)</li>
+<li>2- Muhammad (Team Member)</li>
+<li>3- Afnan (Team Member)</li>
+</ul>
 
 
 <b>Netlify Link:</b>
