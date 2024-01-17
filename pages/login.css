@@ -244,3 +244,20 @@ body {
 .reg a:hover{
   text-decoration: underline 2px solid;
 }
+
+
+@media only screen and (max-width:390px){
+  .display{
+      display: none;
+  }
+}
+
+@media only screen and (min-width:391px) and (max-width:767px){
+  .display{
+      display: none;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+}

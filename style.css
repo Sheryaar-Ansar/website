@@ -132,10 +132,10 @@ body {
 
 }
 
-.image-1 {
+.image-1{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
 
 
 }
@@ -174,14 +174,12 @@ body {
     padding: 10px;
     min-width: 250px;
     margin: bottom 50px;;
-    /* margin-left: 20px; */
     transition: .5s ease;
 }
 
 .image-4:hover{
     margin-top: -15px;
     margin-bottom: -15px;
-    /* background: red; */
     opacity: 0.7;
     color: #359381;
 
@@ -206,3 +204,145 @@ p {
     flex-wrap: wrap;
 }
 
+
+@media only screen and (max-width:390px){
+    .display{
+        display: none;
+    }
+    .banner img{
+        margin-top: 100px;
+        width: 900px;
+    }
+    .img-1{
+        width: 454px;
+    }
+    .img-2{
+        height: 400px;
+    }
+    .img-3{
+        width: 454px;
+    }
+    .img-4{
+        height: 400px;
+    }
+    .image-1 {
+        margin-left: 200px;
+    }
+    .images-2{
+        margin-left: 200px;
+    }
+    .heading h2{
+        width: 100%;
+        margin-left: 240px;
+        color: #359381;
+    }
+    .row {
+        width: 100%;
+        margin-left: 280px;
+    }
+    footer{
+        margin-left: 210px;
+    }
+
+}
+
+@media only screen and (min-width:391px) and (max-width:767px){
+    .banner img{
+        margin-top: 100px;
+        width: 900px;
+    }
+    .img-1{
+        width: 454px;
+    }
+    .img-2{
+        height: 400px;
+    }
+    .img-3{
+        width: 454px;
+    }
+    .img-4{
+        height: 400px;
+    }
+    .image-1 {
+        margin-left: 200px;
+    }
+    .images-2{
+        margin-left: 200px;
+    }
+    .heading h2{
+        width: 100%;
+        margin-left: 240px;
+        color: #359381;
+    }
+    .row {
+        width: 100%;
+        margin-left: 280px;
+    }
+    footer{
+        margin-left: 210px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .banner img{
+        margin-top: 100px;
+        width: 900px;
+    }
+    .img-1{
+        width: 454px;
+    }
+    .img-2{
+        height: 400px;
+    }
+    .img-3{
+        width: 454px;
+    }
+    .img-4{
+        height: 400px;
+    }
+    .image-1 {
+        margin-left: 200px;
+    }
+    .images-2{
+        margin-left: 200px;
+    }
+    .row{
+        padding: 10%;
+        margin-left: 200px;
+    }
+    .image-4 img{
+        margin-right: -200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1055px){
+    .img-1{
+        width: 500px;
+        height: 400px;
+    }
+    .img-2{
+        height: 400px;
+    }
+    .img-3{
+        width: 500px;
+        height: 400px;
+    }
+    .img-4{
+        height: 400px;
+    }
+    .image-1 img{
+        margin-right: 5px;
+    }
+    .images-2 img{
+        margin-left: 5px;
+    }
+    .row{
+        padding: 10%;
+    }
+    .image-4 img{
+        margin-right: -200px;
+        width: 100%;
+    }
+}

@@ -224,3 +224,59 @@ body{
 
 }
 
+
+@media only screen and (max-width:390px){
+    .display{
+        display: none;
+    }
+    .name{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .em{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .comment textarea{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+  
+  @media only screen and (min-width:391px) and (max-width:514px){
+    .display{
+        display: none;
+    }
+    .name{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .em{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .comment textarea{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+
+  
