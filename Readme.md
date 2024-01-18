@@ -11,7 +11,7 @@ Group Name : <i>COdify Group</i>
 
 
 <b>Netlify Link:</b>
-https://65a7daccbc22980fd80e1e29--deft-empanada-03a1c8.netlify.app/
+https://65a8da0348140f521de6025e--sunny-ganache-e1902a.netlify.app/
 
 
 <h1><u>Project Title:</h1></u>
