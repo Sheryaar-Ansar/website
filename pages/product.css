@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     background: aliceblue;
     height: 50px;
+    z-index: 5;
 }
 
 header h2 {

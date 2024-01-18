@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     background: aliceblue;
     height: 50px;
+    z-index: 5;
 }
 
 header h2 {
@@ -140,6 +141,7 @@ body {
 
 }
 .image-1 img{
+
     transition: .5s ease; 
        
 }
